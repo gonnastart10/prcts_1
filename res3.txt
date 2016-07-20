@@ -1,0 +1,35 @@
+For time boundaries on: fb_art_of_war_3
+
+------------------------ RULES:+
+Rule: ('fb_art_of_war_3',) ==> ('fb_crystal_upgrade_2',) , 1.000+
+Rule: ('fb_crystal_upgrade_2',) ==> ('fb_art_of_war_3',) , 1.000+
+
+
+For time boundaries on: ok_in_art_of_war_5
+
+------------------------ RULES:+
+Rule: ('mm_offer_new6',) ==> ('mm_offer_new4',) , 1.000+
+Rule: ('mm_offer_new4',) ==> ('mm_offer_new6',) , 1.000+
+
+
+For time boundaries on: ok_chest_ny2x12
+
+------------------------ RULES:+
+Rule: ('ok_crystal_upgrade_2',) ==> ('ok_offer_new3',) , 1.000+
+Rule: ('ok_offer_new3',) ==> ('ok_crystal_upgrade_2',) , 1.000+
+Rule: ('mm_chest_ny1',) ==> ('mm_chest_ny2',) , 1.000+
+Rule: ('mm_chest_ny2',) ==> ('mm_chest_ny1',) , 1.000+
+Rule: ('ok_chest_ny2x12',) ==> ('ok_chest_big',) , 1.000+
+Rule: ('ok_chest_big',) ==> ('ok_chest_ny2x12',) , 1.000+
+Rule: ('ok_knight_pack',) ==> ('ok_chest_ny2x12',) , 1.000+
+Rule: ('ok_chest_ny2x12',) ==> ('ok_knight_pack',) , 1.000+
+Rule: ('ok_knight_pack',) ==> ('ok_chest_big',) , 1.000+
+Rule: ('ok_chest_big',) ==> ('ok_knight_pack',) , 1.000+
+Rule: ('ok_chest_ny2x12',) ==> ('ok_knight_pack', 'ok_chest_big') , 1.000+
+Rule: ('ok_knight_pack',) ==> ('ok_chest_ny2x12', 'ok_chest_big') , 1.000+
+Rule: ('ok_chest_big',) ==> ('ok_chest_ny2x12', 'ok_knight_pack') , 1.000+
+Rule: ('ok_chest_ny2x12', 'ok_knight_pack') ==> ('ok_chest_big',) , 1.000+
+Rule: ('ok_chest_ny2x12', 'ok_chest_big') ==> ('ok_knight_pack',) , 1.000+
+Rule: ('ok_knight_pack', 'ok_chest_big') ==> ('ok_chest_ny2x12',) , 1.000+
+
+
